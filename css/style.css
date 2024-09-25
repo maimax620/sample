@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+	font-family:Arial, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	color:#A8DCDB;
+}
+
+
+
+nav{
+	position: fixed;
+	margin: 0 auto;
+	width: 80%;
+	padding: 25px 10%;
+	line-height: 25px;
+   background-color:rgba(0,0,0,0.5);;
+ 	z-index: 100;
+}
+
+
+li{
+	list-style-type:none;
+}
+h1{
+	font-size:3em;
+	font-weight:bold;
+	text-align:center;
+	color: #FFF;
+	position: relative;
+	top: 300px;
+	z-index: 10;
+	
+}
+
+#slide{
+	position:absolute;
+	top: 0px;
+	width: 100% ; /*横幅いっぱい*/
+	}
+
+
+#slide ul{
+		
+	
+}
+
+#slide li{
+	position:absolute;
+	width:100%; 
+}
+
+.slide_img{
+	object-fit: cover;
+	height: 700px;
+	width: 100%;
+
+}
+
+
+
+#button{
+	padding-top:690px;
+	text-align:center;
+}
+
+#button ul{
+	display:inline-block;
+}
+
+#button ul li{
+	float:left;
+	margin-right:15px;
+}
+
+#button ul li:last-child{
+	margin-right:0;
+}
+
+#button ul li a{
+	text-indent:-9999px;
+	text-decoration:none;
+	display:block;
+	width:14px;
+	height:14px;
+	border-radius:7px;
+	background:#A8DCDB;
+}
+
+#button ul li a.target{
+	background:#41AFAD;
+}
+
+#con{
+	width: 1200px;
+	background-color:honeydew;
+	margin: 0px auto;
+	padding: 50px;
+}
